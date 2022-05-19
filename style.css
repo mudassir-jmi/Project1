@@ -35,9 +35,7 @@
     font-weight: bold;
     font-size: 25px;
     color: white;
-    letter-spacing: 2px;
-    /* margin: auto; */
-    
+    letter-spacing: 2px;  
   }
 
 .text {
@@ -47,10 +45,19 @@
     padding: 15px;
 }
 
+
 /* Contact details */
-.details {
-    background-color: #E0D8B0;
+
+.contact-info  {
+    padding: 2.3rem 2.2rem;
+    position: relative;
+    /* background-color: #CDBE78; */
 }
+.contact-info .title {
+    color: #fff;
+    background-color: #e00909;
+}
+
 .head {
     background-color: #e00909;
     color: white;
@@ -77,10 +84,11 @@ ul li::before {
 
 /* contact  form */
 
-.container {
+.container{
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .form {
@@ -94,6 +102,7 @@ ul li::before {
     overflow: hidden;
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    background-color: #CDBE78;
 }
 
 .contact-form {
@@ -101,6 +110,7 @@ ul li::before {
     background-color: #EB5353;
     position: relative;
 }
+
 em {
     color: #fff;
 }
@@ -156,22 +166,6 @@ form {
     cursor: pointer;
     transform: 0.3s;
 }
-.contact-info  {
-    padding: 2.3rem 2.2rem;
-    position: relative;
-}
-.contact-info .title {
-    color: #fff;
-    background-color: #e00909;
-}
 
-.check {
-    display: block;
-    position: relative;
-    padding-left: 35px;
-    margin-bottom: 12px;
-    cursor: pointer;
-    font-size: 22px;   
-    color: #fff;
-}
+
 
